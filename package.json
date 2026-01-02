@@ -1,0 +1,22 @@
+{
+  
+  "name": "vibium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js",
+    "test:sync": "mocha tests/**/test.js",
+    "test:async": "mocha tests/**/async_test.js"
+  },
+  "dependencies": {
+    "vibium": "^0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
